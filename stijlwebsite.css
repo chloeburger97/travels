@@ -1,0 +1,100 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 500%;
+    margin: 0em;
+    font-family: 'East Sea Dokdo', cursive;
+    
+}
+
+header {
+    background: rgb(67, 44, 199);
+    display: block;
+    padding: 2em;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 0;
+    flex-wrap: wrap;
+    margin: 0;
+
+}
+
+
+a {
+     align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-color: rgb(67, 44, 199);
+    display: block;
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    display:flex; 
+    max-height: 576px;
+    display: block;
+}
+
+h2 {
+    color: rgb(67, 44, 199);
+    text-align: center;
+    font-size: 200%;
+    margin-top: 1.5em;
+
+}
+
+h3 {
+    color:rgb(67, 44, 199);
+    text-align: center;
+    font-size: 150%;
+    margin: 2em;
+}
+
+p {
+    white-space: normal;
+    text-align: center;
+    font-size: 150%;
+    margin: 2em;
+}
+
+nav a {
+    display: block;
+    min-width: 5em;
+    padding: 0.5em;
+    border-radius: 1em;
+    
+}
+
+nav a:hover {
+    color: rgb(78, 55, 207);
+    background: rgb(255, 255, 255);
+    transition: 1.5s;
+    
+}
+
+
+
+
+section a:hover {
+    color: orange;
+    background: white;
+    border-radius: 0em;
+}
